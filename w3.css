@@ -30,49 +30,48 @@ legend{border:0;padding:0}pre,textarea{overflow:auto}
 @font-face {
     font-family:'NowBlack';
     src: url('NowBlack.otf');
-    src: url('NowBlack.ttf'),url('NowBlack.eot');
+    src: url('NowBlack.ttf'),url('NowBlack.eot'),url('NowBlack.svg');
 }
 
 @font-face {
     font-family:'NowBold';
     src: url('NowBold.otf');
-    src: url('NowBold.ttf'),url('NowBold.eot');
+    src: url('NowBold.ttf'),url('NowBold.eot'),url('NowBold.svg');
 }
 
 @font-face {
     font-family:'NowMedium';
     src: url('NowMedium.otf');
-    src: url('NowMedium.ttf'),url('NowMedium.eot');
+    src:url('NowMedium.ttf'),url('NowMedium.eot'),url('NowMedium.svg');
 }
 
 @font-face {
     font-family:'NowRegular';
     src: url('NowRegular.otf');
-    src: url('NowRegular.ttf'),url('NowRegular.eot');
+    src:url('NowRegular.ttf'),url('NowRegular.eot'),url('NowRegular.svg');
 }
 
 @font-face {
     font-family:'NowLight';
-    src: url('NowLight.otf');
-    src: url('NowLight.ttf'),url('NowLight.eot');
+    src: url('NowLight.otf'); src:url('NowLight.ttf'),url('NowLight.eot'),url('NowLight.svg');
 }
 
 @font-face {
     font-family:'NowThin';
     src: url('NowThin.otf');
-    src: url('NowThin.ttf'),url('NowThin.eot');
+    src:url('NowThin.ttf'),url('NowThin.eot'),url('NowThin.svg');
 }
 
 @font-face {
     font-family:'AGOldFaceBold';
     src: url('AGOldFaceBold.otf');
-    src: url('AGOldFaceBold.ttf'),url('AGOldFaceBold.eot');
+    src: url('AGOldFaceBold.ttf'),url('AGOldFaceBold.eot'), url('AGOldFaceBold.svg');
 }
 
 
 /* CSS ALTERED BY JK */
 
-html,body{font-family:"NowMedium",sans-serif;font-size:12px;line-height:1.25;background-color: white;}
+html,body{font-family:"NowMedium",sans-serif;font-size:13px;line-height:1.25;background-color: white;}
 
 
 html{overflow-x:hidden}
