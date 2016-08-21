@@ -266,8 +266,8 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 .w3-padding-0{padding:0!important}
 .w3-padding-top{padding-top:8px!important}.w3-padding-bottom{padding-bottom:8px!important}
 .w3-padding-left{padding-left:16px!important}.w3-padding-right{padding-right:16px!important}
-.w3-topbar{border-top:3px solid #ccc!important}.w3-bottombar{border-bottom:3px solid #ccc!important}
-.w3-leftbar{border-left:3px solid #ccc!important}.w3-rightbar{border-right:3px solid #ccc!important}
+.w3-topbar{border-top:2px solid #ccc!important}.w3-bottombar{border-bottom:2px solid #ccc!important}
+.w3-leftbar{border-left:2px solid #ccc!important}.w3-rightbar{border-right:2px solid #ccc!important}
 .w3-row-padding,.w3-row-padding>.w3-half,.w3-row-padding>.w3-third,.w3-row-padding>.w3-twothird,.w3-row-padding>.w3-threequarter,.w3-row-padding>.w3-quarter,.w3-row-padding>.w3-col{padding:0 8px}
 .w3-spin{animation:w3-spin 2s infinite linear;-webkit-animation:w3-spin 2s infinite linear}
 @-webkit-keyframes w3-spin{
@@ -408,8 +408,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 }
 
 .jk-left {
-    float: left;
-    text-align: right;
+    text-align: left;
 }
 
 .jk-center {
@@ -429,13 +428,42 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 
 .jk-logo {
     font-family: "NowBlack";
+    font-style: bold;
     font-size: 28px;
     color: black;
-  /* -webkit-text-fill-color: white;
+ /*  -webkit-text-fill-color: black;
    -webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: black; */
+   -webkit-text-stroke-color: white; */
 }
 
+.jk-pre {
+    white-space: pre-wrap;
+}
 
+.jk-nav {
+    font-family: "nowbold";
+    font-size: 12px;
+    letter-spacing: 0px;
+}
+    
+}
+
+.jk-medium {
+    font-family: nowmedium;
+    font-size: 11px;
+}
+
+.jk-giant {
+    font-family: AGOldFaceBold;
+    font-size: 100px;
+   -webkit-text-fill-color: white;
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;
+}
+}
 /* SPECIAL FORMATTING */
 
+.jk-obsolete {
+    position: relative;
+    bottom: 30px;
+}
