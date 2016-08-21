@@ -71,7 +71,8 @@ legend{border:0;padding:0}pre,textarea{overflow:auto}
 
 /* CSS ALTERED BY JK */
 
-html,body{font-family:"NowMedium",sans-serif;font-size:13px;line-height:1.25;background-color: white;}
+html,body{font-family:"NowMedium",sans-serif;font-size:13px;line-height:1.25;background-color: white;transition: all 0.5s ease;
+}
 
 
 html{overflow-x:hidden}
@@ -138,7 +139,12 @@ ul.w3-ul li:last-child{border-bottom:none}
 .w3-hover-purple,.w3-hover-deep-purple,.w3-hover-red,.w3-hover-sand,.w3-hover-teal,.w3-hover-yellow,.w3-hover-white,.w3-hover-black,.w3-hover-grey,.w3-hover-light-grey,.w3-hover-dark-grey,.w3-hover-text-amber,.w3-hover-text-aqua,.w3-hover-text-blue,.w3-hover-text-light-blue,
 .w3-hover-text-brown,.w3-hover-text-cyan,.w3-hover-text-blue-grey,.w3-hover-text-green,.w3-hover-text-light-green,.w3-hover-text-indigo,.w3-hover-text-khaki,.w3-hover-text-lime,.w3-hover-text-orange,.w3-hover-text-deep-orange,.w3-hover-text-pink,.w3-hover-text-purple,
 .w3-hover-text-deep-purple,.w3-hover-text-red,.w3-hover-text-sand,.w3-hover-text-teal,.w3-hover-text-yellow,.w3-hover-text-white,.w3-hover-text-black,.w3-hover-text-grey,.w3-hover-text-light-grey,.w3-hover-text-dark-grey
-{-webkit-transition:background-color .3s,color .15s,box-shadow .3s,opacity 0.3s;transition:background-color .3s,color .15s,box-shadow .3s,opacity 0.3s}
+
+/* TRANSITIONS ALTERED BY JK */
+
+{-webkit-transition:background-color 0.5s,color 0.5s,box-shadow .5s,opacity 0.5s;transition:background-color .5s,color .5s,box-shadow .5s,opacity 0.5s}
+
+
 .w3-sidenav{height:100%;width:200px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
 .w3-sidenav a{padding:4px 2px 4px 16px}.w3-sidenav a:hover{background-color:#ccc}.w3-sidenav a,.w3-dropnav a{display:block}
 .w3-sidenav .w3-dropdown-hover:hover,.w3-sidenav .w3-dropdown-hover:first-child,.w3-sidenav .w3-dropdown-click:hover,.w3-dropnav a:hover{background-color:#ccc;color:#000}
@@ -429,7 +435,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 .jk-logo {
     font-family: "NowBlack";
     font-style: bold;
-    font-size: 28px;
+    font-size: 36px;
     color: black;
  /*  -webkit-text-fill-color: black;
    -webkit-text-stroke-width: 1px;
@@ -460,7 +466,24 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
    -webkit-text-stroke-width: 2px;
    -webkit-text-stroke-color: black;
 }
+
+.jk-dash {
+    border:1px dashed black!important
 }
+
+.jk-social {
+    display:block;
+    transition: all 0.5s ease;
+    margin-right:5px;
+    margin-top:15px;
+    opacity:0.6
+
+}
+
+.jk-social:hover {
+    opacity:1;
+}
+
 /* SPECIAL FORMATTING */
 
 .jk-obsolete {
