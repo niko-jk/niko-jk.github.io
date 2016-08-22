@@ -6,30 +6,45 @@
 <link rel="stylesheet" href="w3.css">
 </head>
 <body>
-<header class="w3-container w3-transparent">
-<div class="w3-top w3-padding">
-    <ul class="w3-navbar w3-transparent">
-  <li><a class="w3-hover-none w3-text-black jk-logo w3-padding-16" href="index.html">Ev_ Naga_</a><span class="w3-opennav w3-xxlarge w3-right w3-hide-large w3-hide-medium w3-transparent" onclick="document.getElementById('id01').style.display='block'">&#9776;</span></li>
+
+       <! -- HEADERS -- !>
+    <div class="w3-navbar w3-transparent">
+      
+        <! -- HEADER MOBILE -- !>
+      <div class="w3-hover-none w3-hide-large w3-hide-medium jk-logo w3-top">
+      <div id="jk-header" class="nav-down jk-left w3-padding" href="index.html">Ev_ Naga_</div></div>
+      <! -- END HEADER MOBILE -- !>
+      
+      <! -- MODAL MENU BUTTON -- !>
+      <div class="jk-big-2 w3-opennav w3-xxlarge w3-right w3-hide-large w3-hide-medium w3-transparent 3-animate-opacity" style="position: fixed; top:20px; right:15px; opacity: 0.4;z-index:1000" onclick="document.getElementById('id01').style.display='block'">&#9776;</div></div>
+
+      <! -- MODAL -- !>      
+        <div id="id01" class="w3-modal w3-animate-opacity jk-orghov w3-hide-large w3-hide-medium">
+            <div style="position:fixed;top:20px; right:15px; z-index:1000"><span onclick="document.getElementById('id01').style.display='none'"
+      class="w3-closebtn jk-big-3">&times;</span></div>
+  <div class="w3-modal-content jk-center">
+      <div class="w3-col s1"><p></p></div>
+      <div class="w3-col s10 w3-center" style="padding-top:70px;padding-left:10px;">
+     <a href="work.html"><p class="jk-mod-button">work</p></a>
+     <a href="about.html"><p class="jk-mod-button" style="clear:right;">about</p></a>
+     <a href="tv.html"><p class="jk-mod-button" style="clear:left;">tv</p></a>    
+     <a href="resources.html"><p class="jk-mod-button">resources</p></a>
+      </div>
+      <div class="w3-col s1"><p></p></div>        
+</div>
+          </div>
+            <! -- END MODAL -- !>
+
+          <! -- HEADER DESKTOP -- !>
+<ul class="w3-navbar w3-transparent w3-top">
+  <li><a class="w3-hover-none w3-text-black jk-logo w3-padding-16 w3-hide-small" href="index.html">Ev_ Naga_</a></li></ul><ul class="w3-navbar w3-transparent w3-top">
   <li class="jk-nav w3-right w3-hide-small w3-padding-16 w3-padding-right w3-transparent"><a class="w3-hover-black w3-text-black w3-hover-text-white w3-container w3-white w3-leftbar w3-bottombar w3-rightbar w3-topbar w3-border-black w3-border-black" href="about.html">about</a></li>
   <li class="w3-right w3-hide-small w3-padding-16 w3-padding-right w3-transparent"><a class="jk-nav w3-hover-black w3-text-black w3-hover-text-white w3-container w3-white w3-leftbar w3-bottombar w3-rightbar w3-topbar w3-border-black w3-border-black" href="resources.html">resources</a></li>
   <li class="w3-right w3-hide-small w3-padding-16 w3-padding-right w3-transparent"><a class="jk-nav w3-hover-black w3-text-black w3-hover-text-white w3-container w3-white w3-leftbar w3-bottombar w3-rightbar w3-topbar w3-border-black w3-border-black" href="tv.html">tv</a></li>
-  <li class="w3-right w3-hide-small w3-padding-16 w3-padding-right w3-transparent"><a class="jk-nav w3-hover-black w3-text-black w3-hover-text-white w3-container w3-white w3-leftbar w3-bottombar w3-rightbar w3-topbar w3-border-black w3-border-black" href="work.html">work</a></li>
-    </ul>
-    </div>
-  <div id="id01" class="w3-modal w3-animate-opacity">
-  <div class="w3-modal-content w3-card">
-    <div class="w3-container">
-      <span onclick="document.getElementById('id01').style.display='none'"
-      class="w3-closebtn">&times;</span>
-    </div>
-    <div class="w3-container w3-center">
-      <p><a class="w3-padding">work </a><a class="w3-padding">tv</a></p>
-      <p><a class="w3-padding">resources </a><a class="w3-padding"> about</a></p>
-    </div>
-  </div>
-</div>
-</header>
-<! -- END NAV BAR -- !>
+  <li class="w3-right w3-hide-small w3-padding-16 w3-padding-right w3-transparent"><a class="jk-nav w3-hover-black w3-text-black w3-hover-text-white w3-container w3-white w3-leftbar w3-bottombar w3-rightbar w3-topbar w3-border-black w3-border-black" href="work.html">work</a> </li></ul>
+    <! -- END ALL HEADERS -- !>
+    
+    <! -- END ALL HEADERS -- !>
 <div class="w3-row w3-transparent w3-padding-64">
 
     </div>
