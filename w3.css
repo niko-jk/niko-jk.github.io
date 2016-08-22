@@ -542,7 +542,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
     margin:13px;
     line-height:30px;
     padding-top:px;
-    opacity:1;
+    opacity:0.3;
 
 }
 
