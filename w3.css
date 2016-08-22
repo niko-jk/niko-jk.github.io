@@ -539,7 +539,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 
 .jk-social-2 {
     transition: all 0.5s ease;
-    margin:13px;
+    margin:10px;
     line-height:30px;
     padding-top:px;
     opacity:0.3;
