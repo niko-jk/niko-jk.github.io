@@ -573,6 +573,16 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
     left:00px;
 }
 
+.jk-soc {
+    position:fixed;
+    width: 40px;
+    height: 00px;
+    display: block;
+    visibility: show;
+    left:10px; 
+    bottom: 170px;
+}
+
 #social-media {
     position: fixed;
     left:100px;
