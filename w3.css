@@ -432,7 +432,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 .jk-logo {
     font-family: "NowBlack";
     font-style: bold;
-    font-size: 36px;
+    font-size: 42px;
     color: black;
  /*  -webkit-text-fill-color: black;
    -webkit-text-stroke-width: 1px;
@@ -526,6 +526,17 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
       opacity:1;
 }
 
+.jk-paragraph {
+    letter-spacing:0.2px;
+    line-height:15px;
+    white-space: pre-wrap;
+}
+
+.jk-padding {
+    padding-right:48px;
+    padding-left:48px;
+}
+
 .jk-thin {
     font-family:"nowthin";
 }
@@ -576,7 +587,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 .jk-soc {
     position:fixed;
     width: 40px;
-    height: 00px;
+    height: 0px;
     display: block;
     visibility: show;
     left:10px; 
