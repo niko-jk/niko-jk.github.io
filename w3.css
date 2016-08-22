@@ -451,12 +451,15 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
     font-size: 12px;
     letter-spacing: 0px;
 }
-    
-}
 
 .jk-medium {
     font-family: nowmedium;
     font-size: 11px;
+}
+
+.jk-big {
+    font-family: nowbold;
+    font-size: 14px;
 }
 
 .jk-giant {
@@ -467,15 +470,28 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
    -webkit-text-stroke-color: black;
 }
 
+.jk-big {
+    font-family: AGOldFaceBold;
+    font-size: 32px;
+    letter-spacing: 2px;
+    line-height:32px;
+    white-space: pre-wrap;
+   -webkit-text-fill-color: white;
+   -webkit-text-stroke-width: 1.5px;
+   -webkit-text-stroke-color: black;
+}
+
+
 .jk-dash {
     border:1px dashed black!important
 }
 
 .jk-social {
     transition: all 0.5s ease;
-    margin-right:10px;
-    margin-top:15px;
-    opacity:0.6
+    margin-right:-13px;
+    line-height:30px;
+    padding-top:30px;
+    opacity:0.6;
 
 }
 
@@ -483,9 +499,79 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
     opacity:1;
 }
 
+.jk-orgbox:hover {
+    opacity:1;
+}
+
+.jk-orgs {
+    text-align: right;
+    position: absolute;
+    top: 350px;
+    right: 40px;
+}
+
+.jk-orgbox {
+    display: inline;
+    padding:10px;
+    line-height:4;
+}
+
+.jk-orghov {
+    transition: all 1s ease;
+}
+
+.jk-orghov:hover {
+      opacity:1;
+}
+
+.jk-thin {
+    font-family:"nowthin";
+}
+
+.jk-uplift {
+    -ms-transform: rotate(-18deg); /* IE 9 */
+    -webkit-transform: rotate(-18deg); /* Chrome, Safari, Opera */
+    transform: rotate(-18deg);
+}
+
+.jk-light {
+    font-family: "nowlight";
+}
+
+.jk-medium-2 {
+    font-family: "nowmedium";
+    font-size: 14pt;
+}
+
+.w3-hover-black-2;
+    color:!important;background-color:#000!important;
+    opacity: 0;
+}
+
+.w3-hover-black-2:hover  {
+    color:!important;background-color:#000!important;
+    opacity: 1;
+}
+
+.jk-out-of-grid {
+    position: absolute;
+}
+
+
+
 /* SPECIAL FORMATTING */
 
 .jk-obsolete {
     position: relative;
     bottom: 30px;
+}
+
+.jk-socsoc {
+    position: fixed;
+    left:00px;
+}
+
+#social-media {
+    position: fixed;
+    left:100px;
 }
