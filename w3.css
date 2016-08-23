@@ -540,6 +540,10 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
     box-shadow: 0 9px 10px -10px #888888;
 }
 
+.jk-drop {
+     box-shadow: 0 9px 10px -10px #888888;
+}
+
 .jk-shadow-logo {
     box-shadow: 0 9px 10px -10px #888888;
 
@@ -949,13 +953,8 @@ jk-tv {
 }
 
 
+
 /*
-body {
-    background-color:#f3fff5;
-}
-
-html {
-    padding:15px;
-
+body, html {
     background-color:#f3fff5;
 */
