@@ -496,6 +496,26 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
    -webkit-text-stroke-color: black;
 }
 
+.jk-larger {
+    font-family: nowbold;
+    font-size: 32px;
+    letter-spacing: 2px;
+    line-height:32px;
+    white-space: pre-wrap;
+
+}
+
+.jk-larger-2 {
+    font-family: nowbold;
+    font-size: 32px;
+    letter-spacing: 2px;
+    line-height:32px;
+    white-space: pre-wrap;
+   -webkit-text-fill-color: white;
+   -webkit-text-stroke-width: 1.5px;
+   -webkit-text-stroke-color: black;
+}
+
 .jk-big-2 {
     font-family: AGOldFaceBold;
     font-size: 32px;
@@ -539,11 +559,9 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 
 .jk-social-2 {
     transition: all 0.5s ease;
-    margin:10px;
-    line-height:30px;
-    padding-top:px;
+    margin:0px;
+    text-align:center;
     opacity:0.3;
-
 }
 
 .jk-social:hover {
@@ -563,8 +581,8 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 
 .jk-orgbox {
     display: inline;
-    padding:10px;
-    line-height:4;
+    padding:5px;
+    line-height:;
 }
 
 .jk-orghov {
@@ -604,6 +622,18 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
     transform: rotate(-18deg);
 }
 
+.jk-large {
+    font-family: AGOldFaceBold;
+    text-transform:uppercase;
+    font-size: 20px;
+}
+
+.jk-large-2 {
+    font-family: AGOldFaceBold;
+    text-transform:uppercase;
+    font-size: 16px;
+}
+
 .jk-light {
     font-family: "nowlight";
 }
@@ -625,6 +655,8 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 
 .jk-out-of-grid {
     position: absolute;
+    margin-top:50px;
+    margin-left:-100px;
 }
 
 
@@ -645,11 +677,41 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
     
 }
 
+jk-20 {
+    width:20%
+}
 
+.jk-pad-l {
+    padding-left:32px;
+}
 
+.jk-pad-r {
+    padding-right:32px;
+}
 
+.jk-pad-t {
+    padding-top:32px;
+}
 
+.jk-pad-b {
+    padding-bottom:32px;
+}
 
+.jk-text-l {
+    text-align:left;
+}
+
+.jk-text-r {
+    text-align:right;
+}
+
+.jk-text-c {
+    text-align:center;
+}
+
+.jk-text-white {
+    white-space:pre-wrap;
+}
 
 /* SPECIAL FORMATTING */
 
@@ -686,5 +748,9 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 #social-media {
     position: fixed;
     left:100px;
+}
+
+jk-tv {
+    line-height:14px;
 }
 
