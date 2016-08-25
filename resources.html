@@ -10,46 +10,31 @@
     <div><img src="line.png" style="position:absolute;width:100%;height:100%;min-width: 1280px; overflow:hidden; visibility:hidden;" /></div>
     <div class="jk-giant jk-uplift" style="position:absolute;top:200px; left:190px;min-width: 1280px; overflow:hidden; visibility:hidden;">UPLIFT</div>
     
- <! -- HEADERS -- !>
-    <div class="w3-navbar w3-transparent">
-      
-        <! -- HEADER MOBILE -- !>
-        <div>
+          <! -- MOBILE BOTTOM SECTION -- !>
             
-
-            <! -- BOTTOM SECTION -- !>
-        <div class="w3-hide-large w3-hide-medium" style="background-color:white;box-shadow: 0 9px 10px -10px #888888;margin-left:-20px;height:25%;width:110%;opacity:1;visibility:;padding-bottom:50px; padding-left:30px;text-align:left;position:fixed;top:0px">
+        <div class="w3-hide-large w3-hide-medium">
             
-            <! -- NAV -- !>
-            <div style="padding-left:20px;padding-top:60px; margin-left:px">
-                <div style="text-align: left;padding-right:50px; padding-top:10px; font-size:12px;font-family:nowmedium;line-height:25px;"><div>
-                <a class="jk-box" href="work.html">work</a>
-                <a class="jk-box" href="tv.html"> TV</a>
-                <a class="jk-box" href="resources.html">resources</a>
-                <a class="jk-box" href="about">about</a></div>
-            </div>
-            </div>
-            </div>
-            <! -- SOCIAL MEDIA -- !>
-            <div style="opacity:0.4;" class="w3-hide-medium w3-hide-large">
-                
-            <div style="position:fixed; top:115px; right:155px"><a href="https://twitter.com/evanagao?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="twit.png" alt="Twitter" height="20" width="20"></a></div>
-                
-            <div style="position:fixed; top:115px; right:120px"><a href="https://www.instagram.com/eva_nagao/"><img src="glyph-logo_May2016_200.png" alt="Instagram" height="20" width="20"></a></div>
-                
-                
-            <div style="position:fixed; top:115px; right:85px"><a href="https://www.facebook.com/Eva-Nagao-639606819522304/"><img src="face.png" alt="Facebook" height="20" width="20"></a></div>
-                
-            <div style="position:fixed; top:115px; right:50px"><a href="http://www.snapchat.com/add/evarrrghs"><img src="snap2.png" alt="Snapchat" height="20" width="20"></a></div>
-                
-            <div style="position:fixed; top:115px; right:15px"><a href="mailto:eva@evanagao.com"><img src="mail.png" alt="Email" height="20" width="20"></a></div>
-            </div>
-            </div>
-       
+           
+            <! -- MOBILE NAV -- !>
+            <div class="w3-hide-large w3-hide-medium" style="position:fixed">
+                <ul class="topnav" id="myTopnav">
+    <ul class="topnav" id="myTopnav">
+  <li><a class="active jk-new-logo" href="index.html" style="font-size:32px;">Eva Nagao</a></li>
+  <li><a href="work.html">Work</a></li>
+  <li><a href="resources.html">Resources</a></li>
+  <li><a href="about.html">About</a></li>
+        <li><div class="jk-menu"><a style="display:inline; margin-left:-230px" href="https://twitter.com/evanagao?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="twit.png" alt="Twitter" height="20" width="20"></a><a style="display:inline;" class="jk-menu" href="https://www.instagram.com/eva_nagao/"><img src="glyph-logo_May2016_200.png" alt="Instagram" height="20" width="20"></a><a  style="display:inline;" class="jk-menu" href="https://www.facebook.com/Eva-Nagao-639606819522304/"><img src="face.png" alt="Facebook" height="20" width="20"></a><a  style="display:inline;" class="jk-menu" href="http://www.snapchat.com/add/evarrrghs"><img src="snap2.png" alt="Snapchat" height="20" width="20"></a><a  style="display:inline;" class="jk-menu" href="mailto:eva@evanagao.com"><img src="mail.png" alt="Email" height="20" width="20"></a></div></li>
         
         
-        <! -- TOP SECTION -- !>
-    <div class="w3-hide-large w3-hide-medium jk-logo-s w3-top" style="vertical-align:middle; line-height:50px; border-bottom:0px dashed black; background-color:white; opacity:1;"><a href="index.html" style="text-decoration:none; display:block;">Eva Nagao</a></div>
+        
+        
+  <li class="icon">
+    <a class="w3-right w3-top jk-right jk-animate" href="javascript:void(0);" style="position:fixed; font-size:28px; width:60px; right:0px;" onclick="myFunction()">☰</a>
+  </li>
+</ul>      
+</ul>
+ </div></div>
+    
         <! -- END HEADER MOBILE -- !>
 
           <! -- HEADER DESKTOP -- !>
@@ -173,12 +158,16 @@ READINGS
 <! -- SCRIPT -- !>    
     
 <script>
-function w3_open() {
-    document.getElementById("mySidenav").style.display = "block";
+        
+    function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
 }
-function w3_close() {
-    document.getElementById("mySidenav").style.display = "none";
-}
+        
 </script>
 
 </body>
