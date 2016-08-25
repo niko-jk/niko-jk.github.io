@@ -124,7 +124,7 @@ ul.w3-ul li:last-child{border-bottom:none}
 .w3-fluid{max-width:100%;height:auto}
 .w3-tooltip .w3-text{display:none}
 .w3-tooltip:hover .w3-text{display:inline-block}
-.w3-navbar{list-style-type:none;margin:0;padding:0;overflow:hidden}
+.w3-navbar{list-style-type:none; margin-right:-40px;overflow:show;}
 .w3-navbar li{float:left}.w3-navbar li a,.w3-navitem{display:block;padding:8px 16px}.w3-navbar li a:hover{color:#000;background-color:#ccc}
 .w3-navbar .w3-dropdown-hover,.w3-navbar .w3-dropdown-click{position:static}
 .w3-navbar .w3-dropdown-hover:hover,.w3-navbar .w3-dropdown-hover:first-child,.w3-navbar .w3-dropdown-click:hover{background-color:#ccc;color:#000}
@@ -539,7 +539,7 @@ jk-nav-box {
 }
 
 .jk-shadow {
-    box-shadow: 0 9px 10px -10px #888888;
+    box-shadow: 0px 9px 10px -10px #888888;
 }
 
 .jk-shadow-2 {
@@ -568,6 +568,11 @@ jk-nav-box {
 .jk-medium {
     font-family: nowmedium;
     font-size: 11px;
+}
+
+.jk-medium-3 {
+    font-family: nowmedium;
+    font-size: 13px;
 }
 
 .jk-menu {
@@ -983,6 +988,10 @@ jk-tv {
   left: 50%;
 }
 
+.jk-white-text {
+    color:white;
+    background-color:black;
+}
 
 
 /*
@@ -995,79 +1004,91 @@ body, html {
 /*
 NAVBAR
 */
-body {margin:0;}
 ul.topnav {
   transition: all 0.5s ease;
   background-color:white;box-shadow: 0 9px 10px -10px #888888;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin-left: -20px;
+  padding-left: 20px;
   overflow: hidden;
   background-color: white;
   color: black;
-    width:700px;
+    width:600%;
 text-align:left;
+    text-decoration:none;
   
 }
 
-ul.topnav li {float: left;}
-
-ul.topnav li a {
+.jk-topnav {
   display: inline-block;
   color: black;
-    font-family: "nowmedium";
+    text-decoration:none;
+    font-family: "nowbold";
   text-align: center;
-  padding: 14px 16px;
+  padding-left: 20px;
+padding-right:20px;
   text-decoration: none;
-  transition: 0.5s;
-  font-size: 18px;
+  font-size: 14px;
+}
+
+.jk-topnav-2 {
+  display: inline-block;
+  color: black;
+    text-decoration:none;
+    font-family: "nowbold";
+  text-align: center;
+  padding-left: 20px;
+  text-decoration: none;
+  font-size: 14px;
 }
 
 .jk-new-logo {
-    font-family: "nowbold";
   display: inline-block;
   color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  transition: 0.5s;
-  font-size: 28px;
-    
-       -webkit-text-fill-color: transparent;
-   -webkit-text-stroke-width: 1.5px;
+       -webkit-text-fill-color: black;
+   -webkit-text-stroke-width: 1.2px;
    -webkit-text-stroke-color: black;*/
     
 }
 
-jk-animate {
+.jk-animate {
     transition: all ease 0.5s;
 }
 
-ul.topnav li a:hover {background-color: #555;}
+ul.topnav li a:hover {background-color: white;}
 
 ul.topnav li.icon {display: none;}
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:620px) {
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
     float: right;
     display: inline-block;
   }
-}
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:620px) {
   ul.topnav.responsive {position: relative;}
   ul.topnav.responsive li.icon {
     position: absolute;
-    right: 0;
+    right: 0px;
+    margin-right:0px;
     top: 0;
   }
   ul.topnav.responsive li {
-    float: none;
+      float: none;
     display: inline;
+      margin-right:;
   }
   ul.topnav.responsive li a {
     display: block;
     text-align: left;
   }
+}
+
+.jk-log-o {
+    font-family:"NowBlack";
+    font-size: 24px;
 }
