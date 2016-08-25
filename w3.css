@@ -29,43 +29,43 @@ legend{border:0;padding:0}pre,textarea{overflow:auto}
 
 @font-face {
     font-family:'NowBlack';
-    src: url('NowBlack.otf');
-    src: url('NowBlack.ttf'),url('NowBlack.eot'),url('NowBlack.svg');
+    src: url('http://files.cargocollective.com/365381/NowBlack.otf');
+    src: url('http://files.cargocollective.com/365381/NowBlack.ttf'),url('http://files.cargocollective.com/365381/NowBlack.eot'),url('http://files.cargocollective.com/365381/NowBlack.svg');
 }
 
 @font-face {
     font-family:'NowBold';
-    src: url('NowBold.otf');
-    src: url('NowBold.ttf'),url('NowBold.eot'),url('NowBold.svg');
+    src: url('http://files.cargocollective.com/365381/NowBold.otf');
+    src: url('http://files.cargocollective.com/365381/NowBold.ttf'),url('http://files.cargocollective.com/365381/NowBold.eot'),url('http://files.cargocollective.com/365381/NowBold.svg');
 }
 
 @font-face {
     font-family:'NowMedium';
-    src: url('NowMedium.otf');
-    src:url('NowMedium.ttf'),url('NowMedium.eot'),url('NowMedium.svg');
+    src: url('http://files.cargocollective.com/365381/NowMedium.otf');
+    src:url('http://files.cargocollective.com/365381/NowMedium.ttf'),url('http://files.cargocollective.com/365381/NowMedium.eot'),url('http://files.cargocollective.com/365381/NowMedium.svg');
 }
 
 @font-face {
     font-family:'NowRegular';
-    src: url('NowRegular.otf');
-    src:url('NowRegular.ttf'),url('NowRegular.eot'),url('NowRegular.svg');
+    src: url('http://files.cargocollective.com/365381/NowRegular.otf');
+    src:url('http://files.cargocollective.com/365381/NowRegular.ttf'),url('http://files.cargocollective.com/365381/NowRegular.eot'),url('http://files.cargocollective.com/365381/NowRegular.svg');
 }
 
 @font-face {
     font-family:'NowLight';
-    src: url('NowLight.otf'); src:url('NowLight.ttf'),url('NowLight.eot'),url('NowLight.svg');
+    src: url('http://files.cargocollective.com/365381/NowLight.otf'); src:url('http://files.cargocollective.com/365381/NowLight.ttf'),url('http://files.cargocollective.com/365381/NowLight.eot'),url('http://files.cargocollective.com/365381/NowLight.svg');
 }
 
 @font-face {
     font-family:'NowThin';
-    src: url('NowThin.otf');
-    src:url('NowThin.ttf'),url('NowThin.eot'),url('NowThin.svg');
+    src: url('http://files.cargocollective.com/365381/NowThin.otf');
+    src:url('http://files.cargocollective.com/365381/NowThin.ttf'),url('http://files.cargocollective.com/365381/NowThin.eot'),url('http://files.cargocollective.com/365381/NowThin.svg');
 }
 
 @font-face {
     font-family:'AGOldFaceBold';
-    src: url('AGOldFaceBold.otf');
-    src: url('AGOldFaceBold.ttf'),url('AGOldFaceBold.eot'), url('AGOldFaceBold.svg');
+    src: url('http://files.cargocollective.com/365381/AGOldFaceBold.otf');
+    src: url('http://files.cargocollective.com/365381/AGOldFaceBold.ttf'),url('http://files.cargocollective.com/365381/AGOldFaceBold.eot'), url('http://files.cargocollective.com/365381/AGOldFaceBold.svg');
 }
 
 
