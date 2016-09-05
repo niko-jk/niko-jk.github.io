@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html id="jk-html">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="charger.css">
+
+<script src="jquery-3.1.0.js"></script>
+    
+</head>
+    <body>
+<div id="jk-page">
+    <div class="w3-row w3-hide-large w3-hide-medium"><p> <br>
+        </p>
+    <div id="jk-charger-base"><p> <br>
+        </p>
+    <div id="jk-charger" class="jk-charge"><p> <br>
+        </p>
+        </div>
+    </div>
+    </div>
+        </div>
+
+        
+        
+<script>
+$(function(){
+  $( "div.jk-charge" ).bind( "taphold", tapholdHandler );
+ 
+  function tapholdHandler( event ){
+    $( event.target ).addClass( "taphold" );
+  }
+});
+</script>
+        
+</body>
+</html>
+<link rel="stylesheet" href="/lib/w3.css">
