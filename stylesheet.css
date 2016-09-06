@@ -26,7 +26,7 @@ body {
   transition:color .2s ease-out, opacity 2s ease-in;
 }
 
-#jk-1:hover {opacity:1;}
+#jk-1:hover, #jk-1:active {opacity:1;}
 
 
       @-moz-keyframes myfirst /* Firefox */
@@ -60,7 +60,7 @@ body {
   transition:color .2s ease-out, opacity 2s ease-in;
 }
 
-#jk-2:hover {opacity:1;}
+#jk-2:hover, #jk-2:active  {opacity:1;}
 
       @-moz-keyframes myfirst /* Firefox */
     {
@@ -92,7 +92,7 @@ body {
   transition:color .2s ease-out, opacity 2s ease-in;
 }
 
-#jk-3:hover {opacity:1;}
+#jk-3:hover, #jk-3:active {opacity:1;}
 
 
       @-moz-keyframes myfirst /* Firefox */
@@ -126,7 +126,7 @@ body {
   transition:color .2s ease-out, opacity 2s ease-in;
 }
 
-#jk-4:hover {opacity:1;}
+#jk-4:hover, #jk-4:active {opacity:1;}
 
 
       @-moz-keyframes myfirst /* Firefox */
@@ -159,7 +159,7 @@ body {
   transition:color .2s ease-out, opacity 2s ease-in;
 }
 
-#jk-5:hover {opacity:1;}
+#jk-5:hover, #jk-5:active {opacity:1;}
 
 
       @-moz-keyframes myfirst /* Firefox */
@@ -192,7 +192,7 @@ body {
   transition:color .2s ease-out, opacity 2s ease-in;
 }
 
-#jk-6:hover {opacity:1;}
+#jk-6:hover, #jk-6:active {opacity:1;}
 
 
       @-moz-keyframes myfirst /* Firefox */
@@ -225,7 +225,7 @@ body {
   transition:color .2s ease-out, opacity 2s ease-in;
 }
 
-#jk-7:hover {opacity:1;}
+#jk-7:hover, #jk-7:active {opacity:1;}
 
 
       @-moz-keyframes myfirst /* Firefox */
@@ -258,7 +258,7 @@ body {
   transition:color .2s ease-out, opacity 2s ease-in;
 }
 
-#jk-8:hover {opacity:1;}
+#jk-8:hover, #jk-8:active {opacity:1;}
 
 
       @-moz-keyframes myfirst /* Firefox */
@@ -291,7 +291,7 @@ body {
   transition:color .2s ease-out, opacity 2s ease-in;
 }
 
-#jk-9:hover {opacity:1;}
+#jk-9:hover, #jk-9:active {opacity:1;}
 
 
       @-moz-keyframes myfirst /* Firefox */
@@ -324,7 +324,7 @@ body {
   transition:color .2s ease-out, opacity 2s ease-in;
 }
 
-#jk-10:hover {opacity:1;}
+#jk-10:hover, #jk-10:active {opacity:1;}
 
 
       @-moz-keyframes myfirst /* Firefox */
@@ -357,7 +357,7 @@ body {
   transition:color .2s ease-out, opacity 2s ease-in;
 }
 
-#jk-11:hover {opacity:1;}
+#jk-11:hover, #jk-11:active {opacity:1;}
 
 
       @-moz-keyframes myfirst /* Firefox */
@@ -390,7 +390,7 @@ body {
   transition:color .2s ease-out, opacity 2s ease-in;
 }
 
-#jk-12:hover {opacity:1;}
+#jk-12:hover, #jk-12:active {opacity:1;}
 
 
       @-moz-keyframes myfirst /* Firefox */
@@ -423,7 +423,7 @@ body {
   transition:color .2s ease-out, opacity 2s ease-in;
 }
 
-#jk-13:hover {opacity:1;}
+#jk-13:hover, #jk-13:active {opacity:1;}
 
 
       @-moz-keyframes myfirst /* Firefox */
@@ -456,7 +456,7 @@ body {
   transition:color .2s ease-out, opacity 2s ease-in;
 }
 
-#jk-14:hover {opacity:1;}
+#jk-14:hover, #jk-14:active {opacity:1;}
 
 
       @-moz-keyframes myfirst /* Firefox */
@@ -489,7 +489,7 @@ body {
   transition:color .2s ease-out, opacity 2s ease-in;
 }
 
-#jk-15:hover {opacity:1;}
+#jk-15:hover, #jk-15:active {opacity:1;}
 
 
       @-moz-keyframes myfirst /* Firefox */
@@ -522,7 +522,7 @@ body {
   transition:color .2s ease-out, opacity 2s ease-in;
 }
 
-#jk-16:hover {opacity:1;}
+#jk-16:hover, #jk-16:active {opacity:1;}
 
 
       @-moz-keyframes myfirst /* Firefox */
@@ -555,7 +555,7 @@ body {
   transition:color .2s ease-out, opacity 2s ease-in;
 }
 
-#jk-17:hover {opacity:1;}
+#jk-17:hover, #jk-17:active {opacity:1;}
 
 
       @-moz-keyframes myfirst /* Firefox */
@@ -588,7 +588,7 @@ body {
   transition:color .2s ease-out, opacity 2s ease-in;
 }
 
-#jk-18:hover {opacity:1;}
+#jk-18:hover, #jk-18:active {opacity:1;}
 
 
       @-moz-keyframes myfirst /* Firefox */
@@ -621,7 +621,7 @@ body {
   transition:color .2s ease-out, opacity 2s ease-in;
 }
 
-#jk-19:hover {opacity:1;}
+#jk-19:hover, #jk-19:active {opacity:1;}
 
 
       @-moz-keyframes myfirst /* Firefox */
@@ -654,7 +654,7 @@ body {
   transition:color .2s ease-out, opacity 2s ease-in;
 }
 
-#jk-20:hover {opacity:1;}
+#jk-20:hover, #jk-20:active {opacity:1;}
 
 
       @-moz-keyframes myfirst /* Firefox */
